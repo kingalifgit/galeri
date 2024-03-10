@@ -1,0 +1,7 @@
+<h1 class="text-2xl block mb-2">Tambah foto</h1>
+<form action="/galeri" method="post" enctype="multipart/form-data" class="flex flex-col gap-2">
+  <input type="file" required name="file" class="border p-1 rounded shadow">
+  <span class="text-sm text-slate-700 mt-3">Deskripsi</span>
+  <textarea name="deskripsi"  class="border p-3 rounded shadow"></textarea>
+  <button class="bg-slate-200 p-2 text-slate-600 hover:text-slate-800 hover:bg-slate-300 transition ease-in-out delay-50 rounded">Upload</button>
+</form>
